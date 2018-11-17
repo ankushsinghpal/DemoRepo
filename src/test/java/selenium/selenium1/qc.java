@@ -1,4 +1,4 @@
-package facebook;
+package selenium.selenium1;
 
 
 import org.openqa.selenium.Capabilities;
@@ -29,7 +29,7 @@ System.setProperty("webdriver.chrome.driver", "‪C://chromedriver.exe");
 WebDriver driver=new ChromeDriver(c);
 driver.get("https://www.primevideo.com");
 
-driver.manage().window().maximize();
+
 
 
 }
